@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <Resource id="administracion" type="javax.sql.DataSource">
+  #Fri Jan 29 19:15:04 CST 2021
+password=Tenamalco27
+jdbcDriver=com.mysql.cj.jdbc.Driver
+jdbcUrl=jdbc\:mysql\://localhost\:3306/adminitracionlogin?serverTimezone\=UTC
+userName=root
+jtaManaged=true     
+</Resource>
+</resources>

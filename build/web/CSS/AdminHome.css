@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 7 jul. 2021, 14:39:33
+    Author     : PC
+*/
+
+body{
+
+    background:url(../imagenes/xic.jpg);
+  background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+}
+.letras{
+    color:white;
+    font-family: "Helvetica", "Times New Roman", "Arial";
+    font-size: 32px;
+    font-style: italic;
+    text-decoration: none;
+}
+#tablaempleados{
+    text-align: center;
+}
+header h1{
+     
+    text-align: center;
+}
+#tablaempleados{
+    text-align: center;
+      
+}
+#tablaempleados table{
+    
+    background-color: violet;
+    border-color: red;
+    border-collapse: separate;
+    
+    
+}
+#tablaempleados table td{  
+      background-color: violet;
+    border-color: red;
+    border-collapse: separate;
+    border-style: solid;
+    color: black;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Helvetica", "Times New Roman";
+    font-style: italic;   
+    
+}

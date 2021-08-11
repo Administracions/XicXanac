@@ -1,0 +1,107 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31 jul. 2021, 13:09:50
+    Author     : PC
+*/
+
+   body{
+
+    background:url(../imagenes/xic.jpg);
+  background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+}
+header h1{
+    font-size: 25px;
+    font-family: Helvetica;
+    font-style: italic;
+    color:white;
+    text-align: center;
+    
+}
+
+
+
+#menureportesemanal{
+    display: flex;
+    justify-content: space-between;
+}
+#TablaReportes{
+    padding-left: 8%;
+    padding-top: 25px;
+    
+    
+}
+.botones{
+      text-decoration: none;
+    padding: 15px;
+    background-color: green;
+    font-family: "Arial", "Helvetica";
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    border-radius: 4px;
+}
+
+.inputtype{
+    color: white;
+    background-color: crimson;
+    background-size: 15px;
+    text-align: center;
+    border-radius: 8px;
+    font-family: Helvetica, Arial, sans-serif;
+    
+  
+}
+.inputtype:hover{
+    border-color: blue;
+    
+}
+form b{
+    color:white;
+}
+#busquedaempleado{
+    padding-left: 9%;
+    
+}
+#busquedafecha{
+    padding-right: 7%;
+    
+}
+.textinput{
+   padding: 8px;
+    border-color: greenyellow;
+    border-radius: 8px;
+    font-family: Poppins,Helvetica, Arial,sans-serif;
+    font-size: 15px;
+    height: 8px;
+     
+}
+
+
+#TablaReportes table{
+   background-color: purple;
+    border-color: black;
+    border-collapse: separate;
+    
+}
+#TablaReportes table td{
+    background-color: #ffd169;
+    border-color: #21a9fa;
+    border-collapse: separate;
+    border-style: solid;
+    color: black;
+    text-align: center;
+    font-size: 19px;
+    font-family: "Helvetica", "Times New Roman";
+    font-style: italic;   
+}
+

@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17 jul. 2021, 13:58:03
+    Author     : PC
+*/
+
+
+header h1{
+    text-align: center;
+}
+
+.letras{
+        color:black;
+    font-family: "Helvetica", "Times New Roman", "Arial";
+    font-size: 28px;
+    font-style: italic;
+    text-decoration: none;
+}
+.inputs{ 
+  text-align: center;
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+    border-color: #33ff33;
+    font-family: "Times New Roman", "Arial", "Helvetica";
+    font-size: 26px;
+}
+#adminlogin{
+    text-align: center;
+    padding-left: 37%;
+}
+#adminlogin fieldset{
+    padding-left: 37%;
+    text-align: center;
+    width: 25%;
+    height: 45%;
+    border-style: inset;
+    border-width: thick;
+    border: outset;
+    border-radius: 60px;
+    padding-top: 15px;
+    font-size: 20px;
+    padding: 25px;
+    border-color: red;
+    background-color: #767778;
+   border-style:solid; 
+
+}
+#enviologin{
+        font-family: "Times New Roman";
+    background-color: green;
+    border-collapse: collapse;
+    border-style: solid;
+    border-radius: 60px;
+    width: 250px;
+    height: 35px;
+    color: white;
+    padding: 1em 1.5em;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#contrasena{
+    padding-left: 25%;
+}
+
+#contrasena a{
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}

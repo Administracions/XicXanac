@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>web/Admin/HeaderAdmin.jsp</url>
+            <bookmark id="1">
+                <name/>
+                <line>7</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/PC/Documents/TareasCCH/Admin/Administracions/src/java/com/entity/pojos/Empleados.java</file>
+            <file>file:/C:/Users/PC/Documents/TareasCCH/Admin/Administracions/web/CSS/Informacion.css</file>
+            <file>file:/C:/Users/PC/Documents/TareasCCH/Admin/Administracions/web/Admin/Direccionempleado.jsp</file>
+            <file>file:/C:/Users/PC/Documents/TareasCCH/Admin/Administracions/web/CSS/ReportesSemanal.css</file>
+            <file>file:/C:/Users/PC/Documents/TareasCCH/Admin/Administracions/web/CSS/formStyle.css</file>
+            <file>file:/C:/Users/PC/Documents/TareasCCH/Admin/Administracions/src/java/com/administracion/empleados/servlet/ReporteSemanal.java</file>
+            <file>file:/C:/Users/PC/Documents/TareasCCH/Admin/Administracions/src/java/com/administracion/Servlets/Editempleado.java</file>
+            <file>file:/C:/Users/PC/Documents/TareasCCH/Admin/Administracions/src/java/com/administracion/Servlets/Horarios.java</file>
+            <file>file:/C:/Users/PC/Documents/TareasCCH/Admin/Administracions/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/PC/Documents/TareasCCH/Admin/Administracions/web/CSS/InformacionStyle.css</file>
+            <file>file:/C:/Users/PC/Documents/TareasCCH/Admin/Administracions/web/Admin/ReportesSemanales.jsp</file>
+        </group>
+    </open-files>
+</project-private>

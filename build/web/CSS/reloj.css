@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+*
+{
+    --bg: #ffffff;
+    --shadowLg: rgb(14, 14, 14);
+    --shadow: rgba(0, 0, 0, 0.26);
+}
+body{
+    min-height: 100vh;
+   /* background: var(--bg);*/
+    background:url(../imagenes/xic.jpg);
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    overflow: hidden;
+}
+h2{
+    font-size: 17px;
+    font-family: Helvetica, Arial, Colibri;
+    font-style: italic;
+    color: red;
+    text-align: center; 
+    display: flex;
+    padding-left: 25px;
+}
+
+
+.cod-empleado{
+    justify-content: center;
+    text-align: center;
+}
+label{
+    align-content: flex-start;
+    font-family:'Open-Sans', sans-serif;
+    font-size: 16px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+    /*display: block;*/
+    margin: 200 0px;
+}
+select{
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 15px;
+    width: 60%;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    margin: 10px 0;
+    outline: none;
+    padding: 12px;
+    transition: .1s;
+    text-align: center;
+}
+
+select:focus {
+    border-color: crimson;
+    box-shadow: 0 0 8px 0 crimson;
+}
+body , span:nth-child(1)
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    display: block;
+    font-weight: 100;
+    text-align: center;
+    font-family: 'Bellota', cursive;
+}
+span:nth-child(1){
+    position: relative;
+    width: 600px;
+    line-height: 250px;
+    border-radius: 150px;
+    font-size: 150px;
+    box-shadow: -15px -15px 15px var(--shadowLg),
+    15px 15px 15px var(--shadow),
+    inset -15px -15px 15px var(--shadowLg),
+    inset 15px 15px 15px var(--shadow);
+    color: #ffffff;
+    border: 5px solid #990066 ;
+}
+span:nth-child(2)
+{
+    line-height: 70px;
+    font-size: 26px;
+    color: #ffffff;
+}
+
+.accion input{
+    width: 75%;
+    margin-bottom: 20px;
+}
+
+.accion input[type='submit'] {
+  align-content: flex-end;
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #990066;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.accion input[type="submit"]:hover {
+  cursor: pointer;
+  background: white;
+  color: #000;
+}
+

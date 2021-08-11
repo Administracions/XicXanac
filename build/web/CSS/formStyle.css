@@ -1,0 +1,247 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12 jul. 2021, 12:19:06
+    Author     : PC
+*/
+
+
+
+
+
+
+header h1{
+    color:white;
+    text-align: center;
+    padding-top: 25px;
+} 
+header h2{
+    text-align: center;
+       font-style: italic;
+    font-size: 15px;
+    font-family: "Times New Roman", Helvetica;
+    color:red;
+}
+
+
+#mensajeerror{
+    padding-top: 3%;
+        text-align: center;
+       font-style: italic;
+    font-size: 19px;
+    font-family: "Times New Roman", Helvetica;
+    color:red;
+}
+
+#cargonuevo{
+   color : white;
+    font-size: 35px;
+    
+}
+
+body{
+
+    background:url(../imagenes/xic.jpg);
+  background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+}
+.letras{
+    color:black;
+    font-family: "Helvetica", "Times New Roman", "Arial";
+    font-size: 28px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.letrass{
+    color:white;
+    font-family: "Helvetica", "Times New Roman", "Arial";
+    font-size: 28px;
+    font-style: italic;
+    text-decoration: none;
+}
+#formularioadmin{
+    
+    text-align: center;
+     padding-top: 25px;
+    
+}
+
+#editempleado div{
+    margin:15px;
+    padding:15px;
+    
+}
+
+.inputs{
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    border-color: #33ff33;
+    font-family: "Times New Roman", "Arial", "Helvetica";
+    font-size: 26px;
+}
+.direccioninputs{
+      text-align: left;
+      padding :15px;
+    width: 45%;
+    height: 30px;
+    border-radius: 8px;
+    border-color: #33ff33;
+    font-family: "Times New Roman", "Arial", "Helvetica";
+    font-size: 26px;
+}
+
+textarea{
+    height: 75px;
+    width: 350px;
+   font-family:  "Times New Roman", "Arial", "Helvetica"; 
+   font-size: 16px;
+}
+
+#formulariouserAdmin{
+     padding-left: 4%;
+   text-align:  center;
+ padding-top: 100px;
+    
+}
+
+#formulariocargo{
+    padding-left: 32%;
+   text-align:  center;
+ padding-top: 25px;
+   
+}
+#formulariocargo fieldset{
+    text-align: center;
+    width: 25%;
+    height: 45%;
+    border-style: inset;
+    border-width: thick;
+    border: outset;
+    border-radius: 60px;
+    padding-top: 15px;
+    font-size: 20px;
+    padding: 25px;
+    border-color: grey;
+    background-color: #ff99ff;
+   border-style:solid; 
+
+}
+#formulariocargo fieldset label{
+    padding: 5px;
+    
+}
+
+#formempleados{
+   padding-left: 15px;;
+   text-align:  center;
+ padding-top: 25px ;
+      
+    
+}
+label.error{
+    font-size: 15px;
+    color:red;
+    display: block;
+    font-family: "Times New Roman";
+   
+}
+#iniciodireccion{
+    padding-left: 21%;
+    color:white;
+    font-size: 32px;
+    font-family: "Arial", "Helvetica";
+}
+
+#formdireccion{
+     padding-left: 37%;
+ text-align: center;
+    
+
+}
+#formdireccion form{
+   
+    text-align: center;
+    
+}
+#formEmpleado{
+    text-align: center;
+    padding-left: 32%;
+}
+#formEmpleado div{
+   display: flex;
+    margin:25px;
+    
+    
+}
+#menu div{
+   display: flex;
+    margin:25px;  
+}
+#formEmpleado div label{
+    margin: 15px;
+}
+    
+
+#envioform{  
+    text-align: center;
+    font-family: "Times New Roman";
+    background-color: green;
+    border-collapse: collapse;
+    border-style: solid;
+    border-radius: 60px;
+    width: 250px;
+    height: 35px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;   
+}
+#envioform:hover{
+    
+    color:red;
+}
+#menubotones{
+    text-align: center;
+    display: inline-block;
+ 
+}
+#menu{
+
+    text-align: center;
+    padding-top: 15%;
+   
+    
+    
+}
+#menu label{
+    margin:15px;
+    
+}
+#menubotones a{
+    margin:  7px;
+}
+
+.contrasena{
+    padding-left: 17%;
+}
+button a{
+    text-decoration: none;
+    color:white;
+}
+#olvidastecontrasena{
+      text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}

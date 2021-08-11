@@ -1,0 +1,155 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 jul. 2021, 12:31:04
+    Author     : PC
+*/
+      body{
+
+    background:url(../imagenes/xic.jpg);
+  background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+}
+.letras{
+    color:white;
+    font-family: "Helvetica", "Times New Roman", "Arial";
+    font-size: 32px;
+    font-style: italic;
+    text-decoration: none;
+}
+ #tablaAdmin{
+    padding-top: 28px;
+   
+}
+
+
+header h1{
+    color:white;
+    text-align: center;
+}
+header h2{
+    
+    text-align: center;
+    
+}
+header nav{
+    padding: 25px;
+    text-align: center;
+         
+}
+header nav ul a{
+    
+        width: 100px;
+    height: 50px;
+    border-radius: 16px;
+    background-color: #00ab3d;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+     padding-right: 5px;
+             padding: 15px;
+    
+    
+}
+
+
+
+
+
+#tablaAdmin table{
+    background-color: purple;
+    border-color: red;
+    border-collapse: separate;
+    
+    
+}
+#tablaAdmin table td{  
+      background-color: violet;
+    border-color: red;
+    border-collapse: separate;
+    border-style: solid;
+    color: black;
+    text-align: center;
+    font-size: 19px;
+    font-family: "Helvetica", "Times New Roman";
+    font-style: italic;   
+    
+}
+#TablaEmpleados{
+    padding-top: 25px;
+    padding-left: 30px;
+    
+}
+#TablaEmpleados table{
+    background-color: purple;
+    border-color: red;
+    border-collapse: separate;
+    
+    
+}
+
+#TablaEmpleados table td{
+    background-color: #ff8e47;
+    border-color: #ffdcb8;
+    border-collapse: separate;
+    border-style: solid;
+    color: black;
+    text-align: center;
+    font-size: 19px;
+    font-family: "Helvetica", "Times New Roman";
+    font-style: italic;    
+}
+
+
+#addcargo{
+
+  text-align: center;
+}
+#addcargo a{
+    width: 100px;
+    height: 50px;
+    border-radius: 60px;
+     background-color: green;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 31px;
+     padding-right: 5px;
+             padding: 15px;
+    
+}
+.menus{
+    padding-bottom: 15px;
+}
+
+.botones{
+    
+     width: 50px;
+    height: 25px;
+    border-radius: 60px;
+    background-color:#21a9fa;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 3px;
+   
+    
+}
+#mensajes{
+    text-align: center;
+   color: white; font-size: 22px; font-style:italic; font-family: "Helvetica", "Times New Roman"; 
+}
+
+
+
+

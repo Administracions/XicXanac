@@ -1,0 +1,102 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20 jul. 2021, 11:51:38
+    Author     : PC
+*/
+
+
+
+
+      body{
+
+    background:url(../imagenes/xic.jpg);
+  background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+}
+#usuario{
+    text-align: center;
+    
+}
+.imagenes{
+    text-align: center;
+}
+
+#botonesmenu{
+    padding-top: 25px;
+    padding-left: 35px;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+   
+}
+.botones{
+    text-decoration: none;
+    padding: 15px;
+    background-color: green;
+    font-family: "Arial", "Helvetica";
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    border-radius: 4px;
+    
+}
+.botones:hover{
+    color:red;
+}
+
+header h1{
+    text-align: center;
+    color:white;
+    font-size: 25px;
+    font-family: Arial,Helvetica, sans-serif;
+    
+}
+header h2{
+    color:white;
+    text-align: center;
+}
+
+#AdministradorInfo{
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+#AdministradorInfo div{
+    font-size: 18px;
+    font-family: "Arial","Helvetica", "Times New Roman";
+    color: #ffe7ba;
+    display:block;
+    
+}
+#AdministradorInfo div b{
+    font-size: 22px;
+    font-family:"Helvetica", "Arial", "Times New Roman";
+    color: white;
+   
+}
+#editarempleado{
+    padding-top: 75px;
+   display: flex;
+   justify-content: center;
+    margin:15px;
+}
+#editarempleado a{
+    margin: 25px;
+}
+#restablecer{
+    
+    text-align: center;
+ margin:22px;
+}
+
+
